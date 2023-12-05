@@ -162,7 +162,7 @@
       line-height: 2;
     }
 
-    @media(max-width: 768px){
+    @media(min-width: 768px){
 
       .benefit{
         font-size: 18px;
@@ -190,7 +190,7 @@
       
     }
 
-    @media(max-width: 320px){
+    @media(min-width: 320px){
       .grid-container{
         display: flex;
         flex-direction: column;
