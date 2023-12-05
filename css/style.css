@@ -150,7 +150,7 @@ border-radius: 100%;
         display: grid;
         max-width: 1024px;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 100px;
+        gap: 20px;
         padding: 25px;
         margin: 0 auto;
         grid-template-areas: 
@@ -168,7 +168,7 @@ border-radius: 100%;
        align-items: flex-start;
         justify-content: space-between;
        background-color: hsl(20, 56%, 95%);
-       gap: 25px;
+       /* gap: 25px; */
       }
 
       .shea{
