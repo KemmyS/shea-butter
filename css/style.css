@@ -210,7 +210,6 @@ border-radius: 100%;
       .raw-ingredients{
         grid-area:raw-ingredients;
         flex-direction: column;
-        /* border: 2px solid green; */
         width: 100%;
         height: 100%;
       }
@@ -220,10 +219,12 @@ border-radius: 100%;
        width: 100%;
        height: 100%;
       }
+
       .natural-img{
         width: 550px;
         height: 500px;
       }
+
 
       h2,
       .fresh,
@@ -242,11 +243,7 @@ border-radius: 100%;
         margin: 0 auto;
        width: 100%;
        height: 100%;
-       /* border: 2px solid red; */
       }
-
-
-
 
  .testimonial{
   max-width: 100%;
@@ -284,6 +281,34 @@ border-radius: 100%;
       }
        
     } 
+
+    @media(min-width: 1024px){
+
+      .grid-container{
+        gap: 200px;
+      }
+      .benefits{
+        width: 600px;
+        height: 600px;
+      }
+
+
+      .benefit{
+        line-height: 3;
+        font-size: 20px;
+        
+      }
+
+      .shea{
+        display: block;
+      max-width: 100%;
+      max-height: 100%;
+      width: 100%;
+      height: 100%;
+     object-fit: cover;
+      }
+
+    }
 
      
       
