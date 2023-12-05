@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+.grid-container{
+    display: grid;
+    max-width: 1024px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 100px;
+    padding: 25px;
+    margin: 0 auto;
+    grid-template-areas: 
+    "product-intro"
+    "all-skin"
+    "raw-ingredients"
+    "testimonials"
+
+}
+
+.product-intro{
+  height: 100vh;
+  grid-area: product-intro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ background-color: hsl(20, 56%, 95%);
+}
+
+.product-img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+ object-fit: cover;
+}
+.benefits{
+  width: 500px;
+  height: 520px;
+
+}
+.benefit{
+  line-height: 3;
+  font-size: 20px;
+  color:#A45C40;
+}
+
+    .all-skin{
+      grid-area: all-skin;
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     max-height: 100vh;
+     border: 2px solid green;
+    }
+
+    .skin-container{
+      display: flex;
+      gap: 20px;
+    }
+
+    .raw-ingredients{
+      grid-area:raw-ingredients;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+     border: 2px solid orangered;
+    }
+
+    .organic-label{
+      display: flex;
+      justify-content: space-evenly;
+      gap: 20px;
+    }
+
+
+    .testimonials{
+      grid-area:testimonials;
+      max-height: 100vh;
+      max-height: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      border: 2px solid red;
+      margin: 0 auto;
+    }
+
+    .testimonal-content{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px; 
+      align-items: center;
+      border: 2px solid black;
+      width: 100%;
+      height: 100%;
+    }
+
+    
+    .testimonial{
+      max-width: 100%;
+      max-height: 100%;
+      width: 300px; 
+      height: 300px; 
+     
+    }
+    .customer-img{
+      border-radius: 100%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .testimony{
+      clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 37% 75%, 4% 98%, 17% 76%, 0% 75%);
+      background-color: hsl(240, 100%, 90%);
+      width: 200px;
+      height: 200px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1;
+   
+    }
+
+      .fa-star{
+        color: hsl(51, 100%, 40%);
+      }
+
+
+    h2,
+    .fresh{
+      font-size: 50px;
+    }
+
+    .fa-pagelines{
+      color: green;
+    }
+    .test-sub{
+      text-align: center;
+      font-size: 20px;
+      line-height: 2;
+    }
