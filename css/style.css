@@ -30,7 +30,6 @@
   grid-area: product-intro;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
  background-color: hsl(20, 56%, 95%);
  gap: 25px;
 }
@@ -189,4 +188,72 @@
         height: 50px;
       }
       
+    }
+
+    @media(max-width: 320px){
+
+      .product-intro{
+        flex-direction: column;
+        background-color: white;
+        margin: 0 auto;
+      }
+
+      .shea{
+        width: 300px;
+        height: 300px;
+        
+  
+      }
+
+      .benefit{
+        line-height: 2;
+        font-size: 16px;
+        background-color: hsl(20, 56%, 95%);
+        border:  2px solid red;
+      
+      } 
+
+      .benefits{
+        width: 300px;
+        height: 300px;
+      margin: 0 auto;
+      }
+      
+      h2,
+      .fresh{
+        font-size: 20px;
+      }
+
+  .all-skin{
+  margin-top: 100px;
+  }
+
+  .organic-label{
+    flex-direction: column;
+  }
+
+  .natural-img{
+    width: 210px;
+    height:210px;
+  }
+
+  .testimonial{
+    width: 150px; 
+    height: 250px; 
+  } 
+
+  .testimonal-content{
+    flex-direction: column;
+    flex-wrap: nowrap;
+   height: max-content;
+   gap: 40px;
+  }
+
+  .customer-img{
+    width: 30px;
+    height: 30px;
+  }
+  .testimonials{
+transform: translateY(700px);
+  }
     }
