@@ -32,9 +32,11 @@
   justify-content: space-between;
   align-items: center;
  background-color: hsl(20, 56%, 95%);
+ gap: 25px;
 }
 
-.product-img{
+.product-img,
+.shea{
   display: block;
   max-width: 100%;
   max-height: 100%;
@@ -43,7 +45,7 @@
  object-fit: cover;
 }
 .benefits{
-  width: 500px;
+  width: 550px;
   height: 520px;
 
 }
