@@ -191,6 +191,14 @@
     }
 
     @media(max-width: 320px){
+      .grid-container{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        /* justify-content: space-between; */
+        align-items: center;
+    
+    }
 
       .product-intro{
         flex-direction: column;
@@ -214,9 +222,9 @@
       } 
 
       .benefits{
-        width: 300px;
-        height: 300px;
-      margin: 0 auto;
+        width: 250px;
+        height: 250px;
+      
       }
       
       h2,
@@ -225,7 +233,7 @@
       }
 
   .all-skin{
-  margin-top: 100px;
+  margin-top: 150px;
   }
 
   .organic-label{
@@ -233,8 +241,8 @@
   }
 
   .natural-img{
-    width: 210px;
-    height:210px;
+    width: 180px;
+    height:180px;
   }
 
   .testimonial{
