@@ -150,7 +150,7 @@ border-radius: 100%;
         display: grid;
         max-width: 1024px;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
+        gap: 50px;
         padding: 25px;
         margin: 0 auto;
         grid-template-areas: 
@@ -162,13 +162,13 @@ border-radius: 100%;
 
       .product-intro{
         width: 100%;
-        height: 100vh;
+        height: 100%;
         grid-area: product-intro;
        flex-direction: row;
        align-items: flex-start;
         justify-content: space-between;
        background-color: hsl(20, 56%, 95%);
-       /* gap: 25px; */
+       gap: 25px;
       }
 
       .shea{
@@ -176,9 +176,16 @@ border-radius: 100%;
         height: 500px;
       }
 
+      .benefits{
+        width: 500px;
+        height: 400px;
+        padding: 5px;
+
+      }
+
       .benefit{
-        line-height: 2.5;
-        font-size: 18px;
+        line-height: 2;
+        font-size: 17px;
         
       }
 
@@ -202,8 +209,10 @@ border-radius: 100%;
 
       .raw-ingredients{
         grid-area:raw-ingredients;
-        height: 100vh;
         flex-direction: column;
+        /* border: 2px solid green; */
+        width: 100%;
+        height: 100%;
       }
 
       .organic-label{
@@ -226,7 +235,6 @@ border-radius: 100%;
       .testimonials{
         grid-area:testimonials;
         max-height: 100vh;
-        max-height: 100vw;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -234,6 +242,7 @@ border-radius: 100%;
         margin: 0 auto;
        width: 100%;
        height: 100%;
+       /* border: 2px solid red; */
       }
 
 
