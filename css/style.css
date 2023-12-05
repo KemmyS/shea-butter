@@ -52,12 +52,12 @@
 }
 
 .benefits{
-  width: 550px;
-  height: 520px;
+  width: 500px;
+  height: 500px;
 
 }
 .benefit{
-  line-height: 3;
+  line-height: 2.5;
   font-size: 20px;
   color:#A45C40;
 }
