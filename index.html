@@ -5,35 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shea butter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
     <script defer src="/js/script.js"></script>
 </head>
 <body>
+
 <header class="main-header">
+
+<div class="company-heading">
+    <i class=" top-star fa-solid fa-star"></i>
+
+    <span class="company-name">Shea Magic</span>
+
+   <i class=" bottom-star fa-solid fa-star"></i>
+   
+
+</div>
+
     <aside class="menu">
         <span class="menu__item"></span>
         <span class="menu__item"></span>
         <span class="menu__item"></span>
     </aside>
+
     <nav class="navbar hide">
         <ul class="nav-lists" role="list">
-            <li class="nav-list"><img src="/images/company logo.png" alt="logo"
-                class="logo"></li>
-            <a href="#"><li class="nav-item">Home</li></a>
-            <a href="#"><li class="nav-item">Skin Types</li></a>
-            <a href="#"><li class="nav-item">Ingredients</li></a>
-            <a href="#"> <li class="nav-item">Testimonials</li></a>
+          
+            <a href="#home"><li class="nav-item">Home</li></a>
+            <a href="#skintypes"><li class="nav-item">Skin Types</li></a>
+            <a href="#ingredients"><li class="nav-item">Ingredients</li></a>
+            <a href="#testimonials"> <li class="nav-item">Testimonials</li></a>
         </ul>
     </nav>
 </header>
 
 <main class="grid-container">
     
-    <div class="product-intro">
+    <div class="product-intro" id="home">
 
         <div class="slogan">
-            <p class="test-sub">Make your skin even more perfect with Magic Shea butter</p>
+            <p class="sub-heading">Make your skin even more perfect with Shea Magic butter</p>
         </div>
 
         <div class="product-img">
@@ -93,8 +108,8 @@
         </div>
     </div>
 
-    <div class="all-skin">
-        <h2>Recommended for all skin types</h2>
+    <div class="all-skin" id="skintypes">
+        <h2 class="sub-heading">Recommended for all skin types</h2>
 
     <div class="skin-container">
 
@@ -117,11 +132,11 @@
     </div>
    
 
-    <div class="raw-ingredients">
+    <div class="raw-ingredients" id="ingredients">
 
         <div class="fresh">
         <i class="fa-brands fa-pagelines"></i>
-        <span>Fresh, Clean & Natural</span>
+        <span class="sub-heading">Fresh, Clean & Natural</span>
         <i class="fa-brands fa-pagelines"></i>
        
     </div>
@@ -142,10 +157,10 @@
 
     </div>
 
-<div class="testimonials">
+<div class="testimonials" id="testimonials">
 
     <div class="testimonial-intro">
-        <h2>Don't just take our word for it</h2>
+        <h2 class="sub-heading">Don't just take our word for it</h2>
         <p class="test-sub">Read what clients are saying about the organic shea butter</p>
     </div>
 
