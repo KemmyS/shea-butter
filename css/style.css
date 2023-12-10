@@ -506,9 +506,10 @@ h2,
  
 
   .navbar{
+   
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 10px;
     width: max-content;
     height: max-content;
   }
