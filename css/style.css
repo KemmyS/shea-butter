@@ -499,6 +499,7 @@ h2,
 @media(min-width: 1024px) {
 
   .main-header{
+    max-width: 1024px;
     margin: 80px auto;
     position: relative;
   }
@@ -532,7 +533,7 @@ h2,
 
   .slogan{
     position: absolute;
-    top: -30px;
+    top: -50px;
     left: 80px;
   }
   
