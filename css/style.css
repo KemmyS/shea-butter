@@ -498,20 +498,31 @@ h2,
 
 @media(min-width: 1024px) {
 
+  .main-header{
+    margin: 80px auto;
+    position: relative;
+  }
+ 
+
   .navbar{
-    margin: 20px 300px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: max-content;
+    height: max-content;
   }
 
   .nav-lists{
+    gap: 50px;
     font-size: 30px;
   }
 
   .company-name{
-    font-size: 60px;
+    font-size: 80px;
   }
 
   .bottom-star{
-    translate: 230px -40px;
+    translate: 320px -50px;
   
   }
 
