@@ -10,6 +10,10 @@
   font: inherit;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .main-header {
   margin: 0 auto;
   width: 100%;
@@ -85,6 +89,7 @@
   font-weight: bold;
   color: #606C38;
   width: max-content;
+  
 
 }
 
@@ -130,6 +135,25 @@ transition: all 200ms;
 
 .bottom-star{
   translate: 70px -15px;
+
+}
+
+.top-star,
+.bottom-star{
+  animation: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes rotate{
+  0% {
+    rotate:0;
+  }
+  100% {
+    rotate: 360deg;
+  }
 }
 
 
